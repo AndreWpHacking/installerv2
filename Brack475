@@ -1,0 +1,295 @@
+#!/bin/bash
+#version 1.0
+
+# Variables
+b='\033[1m'
+u='\033[4m'
+bl='\E[30m'
+r='\E[31m'
+g='\E[32m'
+bu='\E[34m'
+m='\E[35m'
+c='\E[36m'
+w='\E[37m'
+endc='\E[0m'
+enda='\033[0m'
+blue='\e[1;34m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+
+figlet WTF | lolcat
+
+echo  "_________________________________________________________"
+echo  "Welcome Tools    : Mr.Andre.Wp      " |lolcat
+echo  "My Blog  : fightercxshacking             " |lolcat
+echo  "My Youtube  : Andre Gaming Wp      " |lolcat
+echo  "My Instagram : @andre_wp475        " |lolcat
+echo  "_________________________________________________________"
+echo ""
+echo "Tunggu..."
+sleep 2
+
+###################################################
+# CTRL + C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+echo -e $cyan"[#]> Thanks You Tod :v"
+sleep 1
+echo ""
+echo -e $white"[#]> Sampai Jumpa Lagi Tod :)..."
+sleep 1
+exit
+}
+
+lagi=1
+while [ $lagi -lt 15 ];
+do
+echo ""
+echo " 1.  Facebot";
+echo "============================" | lolcat
+echo " 2.  Trojans";
+echo "============================" | lolcat
+echo " 3.  RED_HAWK";
+echo "============================" | lolcat
+echo " 4.  Bughunter";
+echo "============================" | lolcat
+echo " 5.  Tebasindex";
+echo "============================" | lolcat
+echo " 6.  DORK-SCANNER";
+echo "============================" | lolcat
+echo " 7.  Sadap Camera";
+echo "============================" | lolcat
+echo " 8.  Viruses";
+echo "============================" | lolcat
+echo " 9.  Tembak Kuota";
+echo "============================" | lolcat
+echo " 10.  Mod Cashtree";
+echo "============================" | lolcat
+echo " 11.  Hack Lokasi";
+echo "============================" | lolcat
+echo " 12.  Buat User Login";
+echo "============================" | lolcat
+echo " 13.  LITESCRIPT";
+echo "============================" | lolcat
+echo " 14.  Hack CCTV";
+echo "============================" | lolcat
+echo " 15.  EXIT";
+echo "============================" | lolcat
+echo ""
+echo -e "╭─Tod" |lolcat
+read -p "╰─#" pil;
+
+if [ $bro = 1 ] || [ $bro = 1 ]
+then
+clear
+figlet WAIT...  |lolcat
+echo $green"Installing facebot..."
+sleep 1
+pkg update && pkg upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/GUNAWAN18ID/facebot
+cd facebot
+pip2 install -r requirements.txt
+python2 facebot.py
+fi
+
+if [ $bro = 2 ] || [ $bro = 2 ]
+then
+clear
+echo $green"Installing Trojans..."
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pip2 install mechanize
+pip2 install requests
+pkg install git
+git clone https://github.com/R133F/Trojans
+cd Trojans
+python2 trojans.py
+fi
+
+if [ $bro = 3 ] || [ $bro = 3 ]
+then
+clear
+echo $green"Installing RED_HAWK..."
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install php
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd RED_HAWK
+php rhawk.php
+fi
+
+if [ $bro = 4 ] || [ $bro = 4 ]
+then
+clear
+echo $green"Installing bughunter..."
+sleep 1
+pkg update
+pkg upgrade
+apt update
+apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/thehackingsage/bughunter
+cd bughunter
+python2 bughunter.py
+fi
+
+if [ $bro = 5 ] || [ $bro = 5 ]
+then
+clear
+echo $green"Installing Tebasindex..."
+sleep 1
+pkg install Curl git lolcat php python2 bash
+pkg install git
+git clone https://github.com/tukangiseng/Tebasindex
+cd Tebasindex
+cd Tebas
+sh Tebas.sh
+fi
+
+if [ $bro = 6 ] || [ $bro = 6 ]
+then
+clear
+echo $green"Installing DORK-SCANNER..."
+sleep 1
+apt update && apt upgrade
+pkg install php
+pkg install git
+git clone https://github.com/KALSELeXploit/DORK-SCANNER
+cd DORK-SCANNER
+php scan.php
+fi
+
+if [ $bro = 7 ] || [ $bro = 7 ]
+then
+clear
+echo $green"Installing saycheese..."
+apt update && apt upgrade
+pkg install git
+pkg install openssh
+pkg install bash
+cd /sdcard
+mkdir hackcam
+cd hackcam
+git clone https://github.com/thelinuxchoice/saycheese
+cd saycheese
+bash saycheese.sh
+fi
+
+if [ $bro = 8 ] || [ $bro = 8 ]
+then
+clear
+echo $green"Installing Viruses..."
+apt update
+apt upgrade
+pkg install python2
+pkg install git
+git clone https://github.com/Ractomes/Viruses
+cd Viruses
+python2 malicious.py
+fi
+
+if [ $bro = 9 ] || [ $bro = 9 ]
+then
+clear
+echo $green"Installing tembaktembakan..."
+apt update && apt upgrade
+pkg install python
+pkg install git
+git clone https://github.com/Bintang73/tembaktembakan.git
+cd tembaktembakan
+python dor.py
+fi
+
+if [ $bro = 10 ] || [ $bro = 10 ]
+then
+clear
+echo $green "Installing cashtree..."
+pkg update && pkg upgrade
+pkg install php
+pkg install git
+pkg install nano
+git clone https://github.com/radenvodka/cashtree
+cd cashtree
+nano cashtree.php
+php cashtree.php
+fi
+
+if [ $bro = 11 ] || [ $bro = 11 ]
+then
+clear
+echo $green "Installing locator..."
+apt update && apt upgrade
+pkg install php
+pkg install python2
+pkg install openssl
+pkg install mechanize
+pkg install curl
+apt-get install git curl openssh python python2 tsu -y
+pkg install git
+pkg install pip
+git clone https://github.com/thelinuxchoice/locator
+cd locator
+bash locator.sh
+fi
+
+if [ $bro = 12 ] || [ $bro = 12 ]
+then
+clear
+echo $green "Installing termux-loginv2fx..."
+pkg update && pkg upgrade
+pkg install python
+pkg install git
+git clone https://github.com/Harisgitama/termux-loginv2fx.git
+cd termux-loginv2
+python2 setup.py
+cd $HOME
+python2 useradd.py
+fi
+
+if [ $bro = 13 ] || [ $bro = 13 ]
+then
+clear
+echo $green "Installing LITESCRIPT..."
+pkg install python2
+pkg install git
+git clone https://github.com/4L13199/LITESCRIPT
+cd LITESCRIPT
+python2 LITESCRIPT.py
+mv hasilsc.html /sdcard
+fi
+
+if [ $bro = 14 ] || [ $bro = 14 ]
+then
+clear
+echo $green "Installing ipcs..."
+apt update
+apt upgrade
+pkg install python2
+pip2 install requests
+pkg install git
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+python2 scan.py
+fi
+
+if [ $bro = 15 ] || [ $bro = 15 ]
+then
+clear
+figlet WAIT...  |lolcat
+sleep 2
+clear
+echo " Thanks Udah Gunakan Tools Saya " |lolcat
+sleep 1
+echo " Semoga Bermanfaat "        |lolcat
+sleep 1
+echo " Created By : Andre Wp"      |lolcat
+exit
+fi
